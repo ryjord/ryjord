@@ -7,7 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/rileyj.co.uk-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rileyj.co.uk)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://uk.linkedin.com/in/mrrileyjordan)
 [![X](https://img.shields.io/badge/@rhyjord-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rhyjord)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:RileyJordan21@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Riley@mrenigma.uk)
 [![CV](https://img.shields.io/badge/CV%20%2F%20Résumé-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://rileyj.co.uk/CV.pdf)
 
 </div>
