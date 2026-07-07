@@ -26,23 +26,16 @@
 <!-- ============ ABOUT ============ -->
 ## &nbsp; About
 
-<table>
-<tr><td>
-
 Frontend Engineer at **PACS** and third-year **BSc Software Engineering** student at **Bournemouth University**, currently on my **industry placement year**. I build full-stack web applications, AI/ML models, IoT hardware, and custom React interfaces — with a focus on real-time data, clean architecture, and strong user experience. Alongside placement I take on **freelance** client work across web apps, dashboards, and cloud deployment.
 
-</td></tr>
-</table>
-
-<div align="center">
-
-![First Class](https://img.shields.io/badge/First_Class_Honours-6366F1?style=flat-square)
-![Top 5%](https://img.shields.io/badge/Top_5%25_Nationally-0EA5E9?style=flat-square)
-![L5](https://img.shields.io/badge/L5_Commendation_Contender-8B5CF6?style=flat-square)
-![Sprint](https://img.shields.io/badge/1st_·_Business_Sprint-6366F1?style=flat-square)
-![DeepRacer](https://img.shields.io/badge/3rd_·_AWS_DeepRacer_@_MoD-0EA5E9?style=flat-square)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Degree-First_Class_Honours-6366F1?style=for-the-badge&labelColor=1E293B" alt="First Class" />
+  <img src="https://img.shields.io/badge/National-Top_5%25-0EA5E9?style=for-the-badge&labelColor=1E293B" alt="Top 5%" />
+  <img src="https://img.shields.io/badge/Commendation-L5_Contender-8B5CF6?style=for-the-badge&labelColor=1E293B" alt="L5 Contender" />
+  <br/>
+  <img src="https://img.shields.io/badge/Computing_Sprint-1st_Place-10B981?style=for-the-badge&labelColor=1E293B" alt="Business Sprint" />
+  <img src="https://img.shields.io/badge/AWS_DeepRacer_@_MoD-3rd_Place-F59E0B?style=for-the-badge&labelColor=1E293B&logo=amazonwebservices&logoColor=white" alt="DeepRacer" />
+</p>
 
 - **Frontend Engineer** at PACS, on placement from Bournemouth University
 - **First Class** — 80.2% Year 1, 78% Year 2, and 95% in Python
@@ -57,10 +50,19 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,php,cs,java,cpp,react,nextjs,threejs,tailwind,html,css,nodejs,express,dotnet,laravel,postgres,mysql,mongodb,supabase,aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github&perline=10&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=python,ts,js,php,cs,java,cpp,react,nextjs,threejs,tailwind,html,css,nodejs,express,dotnet,laravel,postgres,mysql,mongodb,supabase,aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github&perline=10&theme=light" alt="Tech stack" />
-</picture>
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=python,ts,js,php,cs,java,cpp" alt="Languages" />
+
+**Front-End**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,threejs,tailwind,html,css" alt="Front-end" />
+
+**Back-End &amp; Data**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,dotnet,laravel,postgres,mysql,mongodb,supabase" alt="Back-end and data" />
+
+**Cloud &amp; Tools**<br/>
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github" alt="Cloud and tools" />
+
+<br/>
 
 <sub>Also working with **shadcn/ui** · **Expo** · **Hugging Face** · **NLP** · **MATLAB** · **Jira** · **Slack**</sub>
 
@@ -126,9 +128,9 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=ryjord&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile Views" />
 
-<br/><br/>
+<br/>
 
-<img src="https://streak-stats.demolab.com/?user=ryjord&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" alt="GitHub Streak" width="58%" />
+<img src="https://streak-stats.demolab.com/?user=ryjord&theme=tokyonight&hide_border=true&border_radius=8&card_width=470&background=0d1117&ring=6366f1&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&sideNums=e2e8f0&dates=64748b" alt="GitHub Streak" width="55%" />
 
 <br/>
 
