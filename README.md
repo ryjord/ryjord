@@ -21,7 +21,7 @@
 
 </div>
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ ABOUT ============ -->
 ## &nbsp; About
@@ -43,7 +43,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 - **Student Ambassador** at Bournemouth University
 - Shipping **[UniGrade](https://unigrade.co.uk)** — a live SaaS with 100+ users and 99% uptime
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ TECH STACK ============ -->
 ## &nbsp; Tech Stack
@@ -68,7 +68,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 
 </div>
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ FEATURED PROJECTS ============ -->
 ## &nbsp; Featured Projects
@@ -87,7 +87,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 
 </div>
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ ACADEMICS ============ -->
 ## &nbsp; Academics & Achievements
@@ -117,7 +117,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 </tr>
 </table>
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ STATS ============ -->
 ## &nbsp; GitHub Stats
@@ -134,7 +134,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 
 </div>
 
-<br/>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
 
 <!-- ============ SNAKE ============ -->
 ## &nbsp; Contribution Snake
