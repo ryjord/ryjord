@@ -128,11 +128,7 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=ryjord&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile Views" />
 
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=ryjord&theme=tokyonight&hide_border=true&border_radius=8&card_width=470&background=0d1117&ring=6366f1&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&sideNums=e2e8f0&dates=64748b" alt="GitHub Streak" width="55%" />
-
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ryjord&bg_color=0d1117&color=38bdf8&line=6366f1&point=ffffff&area=true&hide_border=true&theme=tokyo-night" width="100%" alt="Contribution Graph" />
 
