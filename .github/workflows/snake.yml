@@ -19,11 +19,44 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake SVGs
+      - name: Generate snake SVGs (attempt 1)
+        id: snake1
+        continue-on-error: true
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Wait before retry
+        if: steps.snake1.outcome == 'failure'
+        run: sleep 30
+
+      - name: Generate snake SVGs (attempt 2)
+        id: snake2
+        if: steps.snake1.outcome == 'failure'
+        continue-on-error: true
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Wait before final retry
+        if: steps.snake1.outcome == 'failure' && steps.snake2.outcome == 'failure'
+        run: sleep 60
+
+      - name: Generate snake SVGs (attempt 3)
+        id: snake3
+        if: steps.snake1.outcome == 'failure' && steps.snake2.outcome == 'failure'
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
