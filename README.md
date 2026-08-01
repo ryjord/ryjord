@@ -88,12 +88,29 @@ Frontend Engineer at **PACS** and third-year **BSc Software Engineering** studen
 | Project | Summary | Stack | Links |
 |:--|:--|:--|:--|
 | **UniGrade** &nbsp;`live` | A live SaaS that models a full UK degree to project your exact classification and the grades you need. 100+ users, 99% uptime. | React · TypeScript · Supabase · PostgreSQL | **[Live](https://unigrade.co.uk)** |
-| **Occlusion** | Real-time machine-learning dashboard powered by an AR scanner app. | Next.js · React · Three.js · Expo | **[Demo](https://occlusion-dashboard.vercel.app/)** |
+| **Copacetic** &nbsp;`live` | A desktop browser built on Electron and Chromium, designed around one rule: colour only ever appears where it carries real connection state. | Electron · Chromium · TypeScript | **[Release](https://github.com/ryjord/Copacetic/releases/latest)** · **[Code](https://github.com/ryjord/Copacetic)** |
+| **Chess** | A chess engine written from scratch in C# — bitboard move generation, search, evaluation, an opening book, and post-game accuracy analysis. No chess libraries. | C# · .NET · Blazor WASM | **[Play it](https://ryjord.github.io/ChessEngine/)** · **[Code](https://github.com/ryjord/ChessEngine)** |
+| **Lithium** | A physics sandbox pairing two engines: a Barnes-Hut N-body particle simulator and a Stable-Fluids PDE field solver, both running in Web Workers. | TypeScript · WebGL · Web Workers | **[Demo](https://synopsis-six.vercel.app)** · **[Code](https://github.com/ryjord/Lithium)** |
+| **VRP Solver** | Benchmarks three algorithmic approaches — Clarke-Wright, Nearest Neighbour + 2-opt, and a Genetic Algorithm — against the Vehicle Routing Problem. | Python | **[Code](https://github.com/ryjord/vrp-solver)** |
+| **Marcus Aurelius AI** | A museum chatbot that replies in character as Marcus Aurelius, blending rule-based NLP, semantic vector search, and an LLM fallback. | Express · React · Hugging Face · MongoDB | **[Demo](https://marcusaurelius-client.vercel.app/)** · **[Code](https://github.com/ryjord/marcus-aurelius-chatbot)** |
 | **Apex FM** | Lead-management platform with automated data capture and authentication — a four-month client build. | TypeScript · React · shadcn/ui | **[Demo](https://apex-fm.vercel.app/)** |
-| **Marcus Aurelius AI** | A museum chatbot that replies in character as Marcus Aurelius, built on Hugging Face NLP. | Express · React · Hugging Face · MongoDB | **[Demo](https://marcusaurelius-client.vercel.app/)** · **[Code](https://github.com/ryjord/SEAssignment)** |
-| **Tech Job Analyser** | An ML tool that surfaces hiring trends across the tech job market. | React · Python · Machine Learning · Next.js | **[Demo](https://tech-job-analyser-mpkm.vercel.app/)** · **[Code](https://github.com/ryjord/Tech-Job-Analyser)** |
 
-<sub>More on my [portfolio](https://rileyj.co.uk) — NASA Explorer 3D, MERN SaaS Dashboard, Honeywell BuildingIQ, and freelance client work.</sub>
+<sub>More on my [portfolio](https://rileyj.co.uk) — NASA Explorer 3D, MERN SaaS Dashboard, Tech Job Analyser, Honeywell BuildingIQ, and freelance client work.</sub>
+
+</div>
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
+
+<!-- ============ OPEN SOURCE ============ -->
+## &nbsp; Open Source
+
+<div align="center">
+
+Contributing upstream to the tools I build with.
+
+| Project | Contribution | Status |
+|:--|:--|:--|
+| **[shadcn/ui](https://github.com/shadcn-ui/ui)** | `fix(shadcn)` — parse `pnpm-workspace.yaml` packages listed at the same indentation, with a regression test | **[Open PR #11246](https://github.com/shadcn-ui/ui/pull/11246)** |
 
 </div>
 
