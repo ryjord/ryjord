@@ -49,7 +49,7 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 
 - **Lead Frontend Developer** at PACS - promoted from Junior, on placement from Bournemouth University
 - **First Class** - 80.2% Year 1, 78% Year 2, and 95% in Python
-- **National L4 Letter of Commendation** - top 5% nationally, and a **contender for the L5 award**
+- **National L4 & L5 Letter of Commendation** - top 5% nationally
 - **Student Ambassador** at Bournemouth University
 - Shipping **[UniGrade](https://unigrade.co.uk)** - a live SaaS with 100+ users and 99% uptime
 
