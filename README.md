@@ -178,10 +178,6 @@ Contributing upstream to the tools I build with.
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=ryjord&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile Views" />
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ryjord&bg_color=0d1117&color=38bdf8&line=6366f1&point=ffffff&area=true&hide_border=true&theme=tokyo-night" width="100%" alt="Contribution Graph" />
-
 </div>
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=3" width="88%" alt="" /></div>
