@@ -118,7 +118,7 @@ Built in Bournemouth, for clients across the UK, for one fixed price.
 | **Marcus Aurelius AI** | A museum chatbot that replies in character as Marcus Aurelius, blending rule-based NLP, semantic vector search, and an LLM fallback. | Express · React · Hugging Face · MongoDB | **[Demo](https://marcusaurelius-client.vercel.app/)** · **[Code](https://github.com/ryjord/marcus-aurelius-chatbot)** |
 | **Apex FM** | Lead-management platform with automated data capture and authentication - a four-month client build. | TypeScript · React · shadcn/ui | **[Demo](https://apex-fm.vercel.app/)** |
 
-<sub>More on my [portfolio](https://rileyj.co.uk) - NASA Explorer 3D, MERN SaaS Dashboard, Tech Job Analyser, Honeywell BuildingIQ, and freelance client work.</sub>
+<sub>More on my [portfolio](https://rileyj.co.uk) - 3D NASA Explorer , SaaS Dashboards, Job Market Analyser, Warehouse Simulators, and indie projects.</sub>
 
 </div>
 
