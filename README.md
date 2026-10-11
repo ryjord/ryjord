@@ -65,7 +65,7 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 ### [Enigma Digital](https://mrenigma.uk)
 
 Precision-built websites and apps for businesses that want to own their code.<br/>
-Built in Bournemouth, for clients across the UK, for one fixed price.
+Built in Bournemouth, for clients across the UK, for a fixed price.
 
 <p>
   <a href="https://mrenigma.uk"><img src="https://img.shields.io/badge/Visit_Site-C0442A?style=for-the-badge&labelColor=0E1013" alt="Enigma Digital website" /></a>
@@ -93,7 +93,7 @@ Built in Bournemouth, for clients across the UK, for one fixed price.
 <img src="https://skillicons.dev/icons?i=nodejs,express,dotnet,laravel,postgres,mysql,mongodb,supabase" alt="Back-end and data" />
 
 **Cloud &amp; Tools**<br/>
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github" alt="Cloud and tools" />
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github,cloudflare" alt="Cloud and tools" />
 
 <br/>
 
