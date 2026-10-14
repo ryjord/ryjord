@@ -68,7 +68,7 @@ Precision-built websites and apps for businesses that want to own their code.<br
 Built in Bournemouth, for clients across the UK, for a fixed price.
 
 <p>
-  <a href="https://mrenigma.uk"><img src="https://img.shields.io/badge/Visit_Site-C0442A?style=for-the-badge&labelColor=0E1013" alt="Enigma Digital website" /></a>
+  <a href="https://mrenigma.uk"><img src="https://img.shields.io/badge/Visit_Site-2447E8?style=for-the-badge&labelColor=0E1013" alt="Enigma Digital website" /></a>
   <a href="https://www.linkedin.com/company/mrenigma/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:riley@mrenigma.uk"><img src="https://img.shields.io/badge/Start_a_Project-0E1013?style=for-the-badge&labelColor=0E1013" alt="Start a project" /></a>
 </p>
