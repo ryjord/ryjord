@@ -12,7 +12,7 @@
 // config, same scene graph, projected through the same camera and baked into
 // SMIL keyframes. The Enigma banner ports the mark and FacetField from the
 // enigmadigital repo. Copy in either has to be changed there and here.
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -175,7 +175,7 @@ function header() {
   t += `<text x="64" y="138" font-family="${MONO}" font-size="17" letter-spacing="2.5" fill="${C.muted}">BOURNEMOUTH, UK  ·  BSc SOFTWARE ENGINEERING</text>`;
   t += `<text x="60" y="228" font-family="${SANS}" font-size="92" font-weight="700" letter-spacing="-2.5" fill="${C.text}">Riley Jordan</text>`;
   t += `<text x="64" y="282" font-family="${SANS}" font-size="30" font-weight="500" fill="${C.sub}">Lead Frontend Developer at PACS</text>`;
-  t += `<text x="64" y="322" font-family="${SANS}" font-size="26" fill="${C.muted}">Full-stack, AI and cloud. Building UniGrade.</text>`;
+  t += `<text x="64" y="322" font-family="${SANS}" font-size="26" fill="${C.muted}">Full-stack, AI and cloud. Building UniGrade and Copacetic.</text>`;
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Riley Jordan - Lead Frontend Developer at PACS">`
     + `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="18" fill="${C.canvas}" stroke="${C.border}"/>`
@@ -368,19 +368,49 @@ for (const pr of PROJECTS) for (const t of ["dark", "light"]) writeFileSync(`${O
 writeFileSync(`${OUT}/academics-dark.svg`, academics("dark"));
 writeFileSync(`${OUT}/academics-light.svg`, academics("light"));
 
-// Stack icon rows, vendored from skillicons.dev (MIT) in both themes
-const STACK = {
-  languages: "python,ts,js,php,cs,java,cpp",
-  frontend: "react,nextjs,vite,tailwind,redux,materialui,threejs,electron,html,css",
-  backend: "nodejs,express,dotnet,laravel,prisma,postgres,mysql,mongodb,supabase",
-  cloud: "aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github,cloudflare",
-};
+// Stack icon rows, vendored from skillicons.dev (MIT) in both themes into icons/,
+// then nested into one panel per theme. Their gradient ids are unique across rows.
+const ICONS = join(OUT, "icons");
+const STACK = [
+  { key: "languages", label: "Languages", icons: "python,ts,js,php,cs,java,cpp" },
+  { key: "frontend", label: "Front-end", icons: "react,nextjs,vite,tailwind,redux,materialui,threejs,electron,html,css" },
+  { key: "backend", label: "Back-end and data", icons: "nodejs,express,dotnet,laravel,prisma,postgres,mysql,mongodb,supabase" },
+  { key: "cloud", label: "Cloud and tools", icons: "aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github,cloudflare" },
+];
+const ALSO = ["shadcn/ui", "Zustand", "Expo", "Blazor WebAssembly", "Fastify", "Hugging Face", "NLP", "MATLAB", "Jira", "Slack"];
 if (process.argv.includes("--icons")) {
-  for (const [row, icons] of Object.entries(STACK)) {
+  mkdirSync(ICONS, { recursive: true });
+  for (const { key, icons } of STACK) {
     for (const theme of ["dark", "light"]) {
       const res = await fetch(`https://skillicons.dev/icons?i=${icons}&theme=${theme}&perline=10`);
-      if (!res.ok) throw new Error(`skillicons ${row}/${theme}: HTTP ${res.status}`);
-      writeFileSync(`${OUT}/stack-${row}-${theme}.svg`, await res.text());
+      if (!res.ok) throw new Error(`skillicons ${key}/${theme}: HTTP ${res.status}`);
+      writeFileSync(`${ICONS}/${key}-${theme}.svg`, await res.text());
     }
   }
 }
+
+// Same transcript rows as the academics panel: muted key on the left, icons as the value
+function stack(theme) {
+  const th = theme === "dark"
+    ? { fg: "#f0f6fc", muted: "#9198a1", line: "#3d444d" }
+    : { fg: "#1f2328", muted: "#59636e", line: "#d1d9e0" };
+  const IH = 64, PITCH = 100;
+  let b = "";
+  STACK.forEach(({ key, label }, i) => {
+    const top = i * PITCH;
+    if (i) b += `<path d="M0 ${top}H1280" stroke="${th.line}" stroke-width="1.2"/>`;
+    b += `<text x="0" y="${top + PITCH / 2 + 7}" font-family="${SANS}" font-size="20" fill="${th.muted}">${label}</text>`;
+    const row = readFileSync(`${ICONS}/${key}-${theme}.svg`, "utf8").trim();
+    const w = (Number(row.match(/viewBox="0 0 (\d+) 256"/)[1]) * IH) / 256;
+    b += row.replace(/^<svg width="[^"]*" height="[^"]*"/, `<svg x="${f1(1280 - w)}" y="${top + (PITCH - IH) / 2}" width="${f1(w)}" height="${IH}"`);
+  });
+  const top = STACK.length * PITCH;
+  b += `<path d="M0 ${top}H1280" stroke="${th.line}" stroke-width="1.2"/>`;
+  b += `<text x="0" y="${top + 44}" font-family="${SANS}" font-size="20" fill="${th.muted}">Also using</text>`;
+  b += `<text x="1280" y="${top + 44}" font-family="${SANS}" font-size="20" font-weight="600" fill="${th.fg}" text-anchor="end">${ALSO.join("  ·  ")}</text>`;
+  const H = top + 64;
+  const label = STACK.map((s) => `${s.label}: ${s.icons.split(",").length} tools`).join(". ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 ${H}" width="1280" height="${H}" role="img" aria-label="Stack. ${label}. Also using ${ALSO.join(", ")}.">${b}</svg>`;
+}
+writeFileSync(`${OUT}/stack-dark.svg`, stack("dark"));
+writeFileSync(`${OUT}/stack-light.svg`, stack("light"));

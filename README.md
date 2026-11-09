@@ -11,7 +11,7 @@
 <div align="center">
 
 <!-- ============ HEADER ============ -->
-<a href="https://rileyj.co.uk"><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/header.svg" width="100%" alt="Riley Jordan - Lead Frontend Developer at PACS. Full-stack, AI and cloud. Building UniGrade." /></a>
+<a href="https://rileyj.co.uk"><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/header.svg" width="100%" alt="Riley Jordan - Lead Frontend Developer at PACS. Full-stack, AI and cloud. Building UniGrade and Copacetic." /></a>
 
 <a href="https://rileyj.co.uk">Portfolio</a> &nbsp;·&nbsp; <a href="https://uk.linkedin.com/in/mrrileyjordan">LinkedIn</a> &nbsp;·&nbsp; <a href="https://x.com/rhyjord">X</a> &nbsp;·&nbsp; <a href="https://rileyj.co.uk/documents/CV.pdf">CV</a> &nbsp;·&nbsp; <a href="mailto:riley@mrenigma.uk">riley@mrenigma.uk</a>
 
@@ -49,14 +49,10 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 <!-- ============ STACK ============ -->
 ## Stack
 
-| Area | Tools |
-|:--|:--|
-| Languages | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-languages-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-languages-light.svg" height="40" alt="Python, TypeScript, JavaScript, PHP, C#, Java, C++" /></picture> |
-| Front-end | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-frontend-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-frontend-light.svg" height="40" alt="React, Next.js, Vite, Tailwind, Redux, Material UI, Three.js, Electron, HTML, CSS" /></picture> |
-| Back-end &amp; data | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-backend-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-backend-light.svg" height="40" alt="Node.js, Express, .NET, Laravel, Prisma, PostgreSQL, MySQL, MongoDB, Supabase" /></picture> |
-| Cloud &amp; tools | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-cloud-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-cloud-light.svg" height="40" alt="AWS, Azure, GCP, Vercel, Docker, GitHub Actions, Raspberry Pi, Git, GitHub, Cloudflare" /></picture> |
-
-<sub>Also working with **shadcn/ui** · **Zustand** · **Expo** · **Blazor WebAssembly** · **Fastify** · **Hugging Face** · **NLP** · **MATLAB** · **Jira** · **Slack**</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-light.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, PHP, C#, Java, C++. Front-end: React, Next.js, Vite, Tailwind, Redux, Material UI, Three.js, Electron, HTML, CSS. Back-end and data: Node.js, Express, .NET, Laravel, Prisma, PostgreSQL, MySQL, MongoDB, Supabase. Cloud and tools: AWS, Azure, GCP, Vercel, Docker, GitHub Actions, Raspberry Pi, Git, GitHub, Cloudflare. Also using shadcn/ui, Zustand, Expo, Blazor WebAssembly, Fastify, Hugging Face, NLP, MATLAB, Jira, Slack." />
+</picture>
 
 <!-- ============ ACADEMICS ============ -->
 ## Academics &amp; achievements
@@ -77,8 +73,6 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 
 <a href="https://github.com/ryjord?tab=followers"><img src="https://img.shields.io/github/followers/ryjord?style=flat&logo=github&logoColor=white&color=6366F1&labelColor=24292f&label=Followers" alt="Followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=ryjord&style=flat&color=0EA5E9&label=Profile+views" alt="Profile views" />
-
-<br/><br/>
 
 <!-- ============ FOOTER ============ -->
 <div align="center">
