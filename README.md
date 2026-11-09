@@ -20,7 +20,7 @@
 <!-- ============ ABOUT ============ -->
 ## About
 
-Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** student at **Bournemouth University**, currently on my **industry placement year**. I build full-stack web applications, AI/ML models, IoT hardware, and custom React interfaces, focused on real-time data, clean architecture, and strong user experience. Alongside placement I run **[Enigma Digital](https://mrenigma.uk)**, taking on freelance client work across web apps, dashboards, and cloud deployment.
+Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** student at **Bournemouth University**, currently on my **industry placement year**. I build full-stack web applications, AI/ML models, IoT hardware, and custom React interfaces, focused on real-time data, clean architecture, and strong user experience. Alongside placement I run **[Enigma Digital](https://mrenigma.uk)**, which publishes my desktop browser **[Copacetic](https://copacetic.mrenigma.uk)** and takes on freelance client work across web apps, dashboards, and cloud deployment.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/highlights-dark.svg" />
@@ -31,12 +31,12 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 ## Featured projects
 
 <a href="https://unigrade.co.uk"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-unigrade-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-unigrade-light.svg" width="100%" alt="UniGrade: models a full UK degree to project your classification. 100+ users, 99% uptime. React, TypeScript, Supabase, PostgreSQL. Visit unigrade.co.uk" /></picture></a><br/>
-<a href="https://github.com/ryjord/Copacetic/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-copacetic-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-copacetic-light.svg" width="100%" alt="Copacetic: a desktop browser where colour only appears when it carries real connection state. Electron, Chromium, TypeScript. Download the latest release" /></picture></a><br/>
+<a href="https://copacetic.mrenigma.uk"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-copacetic-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-copacetic-light.svg" width="100%" alt="Copacetic: a desktop browser that shows the true state of every page, for macOS, Windows and Linux. Electron, React, TypeScript, SQLite. Visit copacetic.mrenigma.uk" /></picture></a><br/>
 <a href="https://ryjord.github.io/ChessEngine/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-chess-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-chess-light.svg" width="100%" alt="Chess: a C# engine from scratch with bitboards, search, evaluation, an opening book and game analysis. C#, .NET, Blazor WASM. Play in the browser" /></picture></a><br/>
 <a href="https://github.com/ryjord/vrp-solver"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-vrp-solver-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-vrp-solver-light.svg" width="100%" alt="VRP Solver: compares Clarke and Wright savings, Nearest Neighbour with 2-opt and a Genetic Algorithm. Python. View the code" /></picture></a><br/>
 <a href="https://marcusaurelius-client.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-marcus-aurelius-dark.svg" /><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/project-marcus-aurelius-light.svg" width="100%" alt="Marcus Aurelius AI: a museum chatbot that answers in character, mixing NLP rules, vector search and an LLM fallback. Express, React, Hugging Face, MongoDB. Try the demo" /></picture></a><br/>
 
-<sub>Code on GitHub: [Copacetic](https://github.com/ryjord/Copacetic) · [ChessEngine](https://github.com/ryjord/ChessEngine) · [vrp-solver](https://github.com/ryjord/vrp-solver) · [marcus-aurelius-chatbot](https://github.com/ryjord/marcus-aurelius-chatbot)</sub><br/>
+<sub>Code on GitHub: [ChessEngine](https://github.com/ryjord/ChessEngine) · [vrp-solver](https://github.com/ryjord/vrp-solver) · [marcus-aurelius-chatbot](https://github.com/ryjord/marcus-aurelius-chatbot)</sub><br/>
 <sub>More on my [portfolio](https://rileyj.co.uk): 3D NASA Explorer, SaaS dashboards, a job market analyser, warehouse simulators and indie projects.</sub>
 
 <!-- ============ FREELANCE ============ -->
@@ -44,7 +44,7 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 
 <a href="https://mrenigma.uk"><img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/enigma.svg" width="100%" alt="Enigma Digital - websites and systems you own outright. Built by hand in Bournemouth. Fixed prices, no monthly licence. Visit mrenigma.uk" /></a>
 
-<sub>Client work: [Jordan Zemura Foundation](https://zemura.vercel.app/) · [Enigma on LinkedIn](https://www.linkedin.com/company/mrenigma/)</sub>
+<sub>Products: [Copacetic](https://copacetic.mrenigma.uk) · Client work: [Jordan Zemura Foundation](https://zemura.vercel.app/) · [Enigma on LinkedIn](https://www.linkedin.com/company/mrenigma/)</sub>
 
 <!-- ============ STACK ============ -->
 ## Stack
