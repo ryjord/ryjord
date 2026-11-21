@@ -372,7 +372,7 @@ writeFileSync(`${OUT}/academics-light.svg`, academics("light"));
 // then nested into one panel per theme. Their gradient ids are unique across rows.
 const ICONS = join(OUT, "icons");
 const STACK = [
-  { key: "languages", label: "Languages", icons: "python,ts,js,php,cs,java,cpp" },
+  { key: "languages", label: "Languages", icons: "python,ts,js,php,cs,java,cpp,rust" },
   { key: "frontend", label: "Front-end", icons: "react,nextjs,vite,tailwind,redux,materialui,threejs,electron,html,css" },
   { key: "backend", label: "Back-end and data", icons: "nodejs,express,dotnet,laravel,prisma,postgres,mysql,mongodb,supabase" },
   { key: "cloud", label: "Cloud and tools", icons: "aws,azure,gcp,vercel,docker,githubactions,raspberrypi,git,github,cloudflare" },

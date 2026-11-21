@@ -51,7 +51,7 @@ Lead Frontend Developer at **PACS** and third-year **BSc Software Engineering** 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-light.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, PHP, C#, Java, C++. Front-end: React, Next.js, Vite, Tailwind, Redux, Material UI, Three.js, Electron, HTML, CSS. Back-end and data: Node.js, Express, .NET, Laravel, Prisma, PostgreSQL, MySQL, MongoDB, Supabase. Cloud and tools: AWS, Azure, GCP, Vercel, Docker, GitHub Actions, Raspberry Pi, Git, GitHub, Cloudflare. Also using shadcn/ui, Zustand, Expo, Blazor WebAssembly, Fastify, Hugging Face, NLP, MATLAB, Jira, Slack." />
+  <img src="https://raw.githubusercontent.com/ryjord/ryjord/master/assets/profile/stack-light.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, PHP, C#, Java, C++, Rust. Front-end: React, Next.js, Vite, Tailwind, Redux, Material UI, Three.js, Electron, HTML, CSS. Back-end and data: Node.js, Express, .NET, Laravel, Prisma, PostgreSQL, MySQL, MongoDB, Supabase. Cloud and tools: AWS, Azure, GCP, Vercel, Docker, GitHub Actions, Raspberry Pi, Git, GitHub, Cloudflare. Also using shadcn/ui, Zustand, Expo, Blazor WebAssembly, Fastify, Hugging Face, NLP, MATLAB, Jira, Slack." />
 </picture>
 
 <!-- ============ ACADEMICS ============ -->
